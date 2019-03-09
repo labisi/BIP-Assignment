@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="bookworm.css">
+    <title>New Items Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+           <a class="navbar-brand" href="#">BookWorm</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav">
+           <li class="nav-item">
+                <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="newItem.html">Add new item</a>
+              <a class="dropdown-item" href="addAgent.html">Add sales agent</a>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="#">Shop</a>
+            </li>
+           </ul>
+         <ul class="navbar-nav ml-auto">
+            </li>
+                <a class="nav-link" href="login.html" target="_blank"><i class="fas fa-sign-in-alt"></i> Sign Up/Log in</a>
+            </li>
+           </li>
+             <a class="nav-link" href="Basket.html" target="_blank"><i class="fas fa-shopping-basket"></i> Basket</a>
+           </li>
+         </ul>
+          </div>
+       </div>
+    </nav>
+
+    <div class="d-flex justify-content-between jumbotron-fluid welcome-line py-4">
+        <h4 class="welcome-text">Welcome User</h4>
+        <span class="date">March 6 2019</span>
+    </div>
+
+    <section class=" container-fluid add-product-section">
+        <div class="row">
+            <div class="col-12 login-sub">
+                <div class="addNewItem">
+                        <table class="table">
+                                <tbody>
+                                  <tr>
+                                      <td><label for="BookTitle">Book Title</label></td>
+                                      <td><input type="text" name="BookTitle" id="BookTitle"></td>
+                                  </tr>
+                                  <tr>
+                                        <td><label for="Author">Author</label></td>
+                                        <td><input type="text" name="Author" id="Author"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Price">Price</label></td>
+                                        <td><input type="text" name="Price" id="Price"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Quantity">Quantity</label></td>
+                                        <td><input type="text" name="Quantity" id="Quantity"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Condition">Condition</label></td>
+                                        <td><select name="Genre" id="Genre">
+                                                  <option value=""></option>
+                                                  <option value="">New</option>
+                                                  <option value="">Used</option>
+                                            </select> 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Format">Format</label></td>
+                                        <td><select name="Format" id="Format">
+                                                  <option value=""></option>
+                                                  <option value="">Ebook</option>
+                                                  <option value="">Paperback</option>
+                                                  <option value="">Hardback</option>
+                                              </select> </td>
+                                    </tr>
+                                  <tr>
+                                      <td><label for="Genre">Genre</label></td>
+                                      <td><select name="Genre" id="Genre">
+                                            <option value=""></option>
+                                            <option value="">Fiction</option>
+                                            <option value="">Non-Fiction</option>
+                                            <option value="">Autobiography</option>
+                                            <option value="">Adventure</option>
+                                        </select> </td>
+                                  </tr>
+                                  <tr>
+                                      <td><label for="bookimage">Book Image</label></td>
+                                      <td><input type="file" name="bookimage" id="bookimage"></td>
+                                  </tr>
+                                  <tr>
+                                    <td><input type="button" class="btn btn-success" value="addItem"></td>
+                                    <td><input type="button" class="btn btn-danger" value="deleteItem"></td> 
+                                  </tr>
+                                  
+                                
+                                </tbody>
+                            </table>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+   
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

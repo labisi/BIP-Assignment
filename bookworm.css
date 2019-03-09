@@ -1,0 +1,144 @@
+html {
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+    background-color: floralwhite;
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: rgb(245, 247, 248);
+}
+
+.navbar-brand{
+    color: #eeaa11;
+    font-weight: 100;
+}
+
+.navbar-nav a{
+    color: #eeaa11;
+}
+
+.navbar-nav a:hover {
+    color: rgb(126, 10, 10);
+}
+
+.Intro{
+   padding: 10% 5% 10%;
+}
+
+.mainBody{
+    background-color:rgb(69, 69, 70);
+}
+
+.index-text{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.app-section{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/* new-items page */
+
+.welcome-text{
+    display: inline;
+}
+
+.welcome-line{
+    background-color: #505763;
+}
+
+.addNewItem{
+    display: inline-block;
+}
+
+.table td{
+    border-top: none;
+}
+
+.welcome-line{
+    padding: .5rem 1rem;
+    color: #ffffff;
+}
+
+.date{
+    justify-content: flex-end;
+}
+
+/* login page */
+
+.login-sub{
+ text-align: center;
+}
+
+.logger{
+    display: inline-block;
+    padding-top: 10%;
+    margin-top: 10%;
+}
+
+#password-forgot{
+    font-size: 0.8rem;
+}
+
+.login-btn{
+    background-color: #eeaa11;
+    width: 100%;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+    background-color: rgb(245, 247, 248);
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de;
+}
+
+.newAgent span{
+    color: red;
+}
+
+/* BASKET */
+.cartbody{
+    padding-bottom: 10rem;
+}
+
+.checkout-button{
+   width: 100%;
+   padding: 15px;
+}
+
+.total-section{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.cartimage{
+    height: auto;
+    width: 170px;
+}
+
+.cartTotalSection{
+    float: right;
+}
+
+.bookPrice{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
